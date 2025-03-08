@@ -1,23 +1,27 @@
 /* Estilo básico */
+/* Estilo básico */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #240015fa;
+    background-image: url('/FOTOS/—Pngtree—march\ 8\ women\ s\ day_1012810.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo, ajustando o tamanho */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 100vh; /* Certifique-se de que o body tenha altura mínima de 100vh */
+    min-height: 100vh;
     position: relative;
-    overflow-x: hidden; /* Impede rolagem horizontal */
+    overflow-x: hidden;
     padding-bottom: 50px;
-    padding-top: 50px; /* Adiciona um espaço no topo para o conteúdo não ficar colado ao topo da tela */
 }
+
 
 /* Título */
 h1 {
-    color: #fbacd4;
+    color: #a20453;
     font-size: 2.5rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -26,7 +30,7 @@ h1 {
 /* Contador */
 #counter {
     font-size: 1.25rem;
-    color: #fbacd4;
+    color: #a20453;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -34,7 +38,7 @@ h1 {
 /* Mensagem */
 .message {
     font-size: 1.25rem;
-    color: #ffffff;
+    color: #a20453;
     margin-bottom: 2rem;
     text-align: center;
     padding: 0 20px;
